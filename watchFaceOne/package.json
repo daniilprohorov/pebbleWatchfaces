@@ -1,0 +1,25 @@
+{
+  "name": "watchFaceOne",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "displayName": "watchFaceOne",
+    "uuid": "3ef9ed29-f412-45f0-8bf3-0565bc8c053b",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
